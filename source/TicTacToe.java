@@ -41,7 +41,7 @@ public class TicTacToe extends JFrame {
 		board.addMouseListener(
 			new MouseAdapter() {
 				@Override
-				public void mouseClicked(MouseEvent e) {  // mouse-clicked handler
+				public void mousePressed(MouseEvent e) {  // mouse-clicked handler
 					int mouseX = e.getX();
 					int mouseY = e.getY();
 					// Get the row and column clicked
